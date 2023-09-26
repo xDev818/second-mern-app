@@ -28,14 +28,7 @@ app.use(express_session(
     {
         secret: "1231234",
         resave: false,
-        saveUninitialized: false,
-<<<<<<< HEAD
-=======
-        cookie: {
-            sameSite: 'None',
-            secure: true
-        }
->>>>>>> 8ddf0d35d69ed3885577d0341606a3c1d29d786a
+        saveUninitialized: false
     }
 ))
 
@@ -50,11 +43,5 @@ app.use('/api', userRoutes);
 //     );
 
 //     next();
-
-<<<<<<< HEAD
-// } ) 
 app.use('/api', cartRoutes);
-=======
-} ) 
 app.use('/api', cartRoutes);
->>>>>>> 8ddf0d35d69ed3885577d0341606a3c1d29d786a
