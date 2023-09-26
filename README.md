@@ -3,7 +3,7 @@
  - where you can register an account and login. perform add to cart based on current logged in user
 
 # status
- - Not yet functionable
+ - This is for demo purposes only on how I made crud operation using mern
 
-# Issue
- - Got some issue with cookies
+# Demo Link
+- Demo : [Try It](https://second-mern-app.netlify.app/)
