@@ -118,6 +118,5 @@ const dashboardUser = async ( request, response ) => {
 module.exports = {
     createUser,
     loginUser,
-    dashboardUser,
-    logoutUser
+    dashboardUser
 }
